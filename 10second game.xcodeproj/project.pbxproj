@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084C01522061241100D466D4 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 084C01512061241100D466D4 /* black.jpg */; };
+		086B1BA91CC3509B0097E6E4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086B1BA81CC3509B0097E6E4 /* AVFoundation.framework */; };
+		086B1BAD1CC353E50097E6E4 /* banana1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 086B1BAC1CC353E50097E6E4 /* banana1.mp3 */; };
+		08A630061C958B6200272C11 /* RESET.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08A630031C958B6200272C11 /* RESET.jpg */; };
+		08A630071C958B6200272C11 /* START.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08A630041C958B6200272C11 /* START.jpg */; };
+		08A630081C958B6200272C11 /* STOP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08A630051C958B6200272C11 /* STOP.jpg */; };
 		08E0EA9B1C92C756007F8D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E0EA9A1C92C756007F8D08 /* main.m */; };
 		08E0EA9E1C92C756007F8D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E0EA9D1C92C756007F8D08 /* AppDelegate.m */; };
 		08E0EAA11C92C756007F8D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E0EAA01C92C756007F8D08 /* ViewController.m */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		084C01512061241100D466D4 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
+		086B1BA81CC3509B0097E6E4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		086B1BAC1CC353E50097E6E4 /* banana1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = banana1.mp3; path = "../../../../Desktop/よくわからないフォルダ/banana1.mp3"; sourceTree = "<group>"; };
+		08A630031C958B6200272C11 /* RESET.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RESET.jpg; path = "../../../../Desktop/アプリ/RESET.jpg"; sourceTree = "<group>"; };
+		08A630041C958B6200272C11 /* START.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = START.jpg; path = "../../../../Desktop/アプリ/START.jpg"; sourceTree = "<group>"; };
+		08A630051C958B6200272C11 /* STOP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = STOP.jpg; path = "../../../../Desktop/アプリ/STOP.jpg"; sourceTree = "<group>"; };
 		08E0EA961C92C756007F8D08 /* 10second game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "10second game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E0EA9A1C92C756007F8D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08E0EA9C1C92C756007F8D08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				086B1BA91CC3509B0097E6E4 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 		08E0EA8D1C92C756007F8D08 = {
 			isa = PBXGroup;
 			children = (
+				086B1BA81CC3509B0097E6E4 /* AVFoundation.framework */,
 				08E0EA981C92C756007F8D08 /* 10second game */,
 				08E0EAB21C92C756007F8D08 /* 10second gameTests */,
 				08E0EABD1C92C756007F8D08 /* 10second gameUITests */,
@@ -117,6 +131,11 @@
 		08E0EA991C92C756007F8D08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				084C01512061241100D466D4 /* black.jpg */,
+				08A630031C958B6200272C11 /* RESET.jpg */,
+				08A630041C958B6200272C11 /* START.jpg */,
+				086B1BAC1CC353E50097E6E4 /* banana1.mp3 */,
+				08A630051C958B6200272C11 /* STOP.jpg */,
 				08E0EA9A1C92C756007F8D08 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,8 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A630071C958B6200272C11 /* START.jpg in Resources */,
+				08A630081C958B6200272C11 /* STOP.jpg in Resources */,
+				084C01522061241100D466D4 /* black.jpg in Resources */,
 				08E0EAA91C92C756007F8D08 /* LaunchScreen.storyboard in Resources */,
+				086B1BAD1CC353E50097E6E4 /* banana1.mp3 in Resources */,
 				08E0EAA61C92C756007F8D08 /* Assets.xcassets in Resources */,
+				08A630061C958B6200272C11 /* RESET.jpg in Resources */,
 				08E0EAA41C92C756007F8D08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,7 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "10second game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "a.-0second-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -426,7 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "10second game/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "a.-0second-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -499,6 +527,7 @@
 				08E0EAC51C92C756007F8D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08E0EAC61C92C756007F8D08 /* Build configuration list for PBXNativeTarget "10second gameTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +536,7 @@
 				08E0EAC81C92C756007F8D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08E0EAC91C92C756007F8D08 /* Build configuration list for PBXNativeTarget "10second gameUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +545,7 @@
 				08E0EACB1C92C756007F8D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

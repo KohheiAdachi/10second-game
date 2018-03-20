@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+     AVAudioPlayer   *sound;
+    
+}
+@property NSTimeInterval startTime;
+- (IBAction)start:(id)sender;
+- (IBAction)stop:(id)sender;
+- (IBAction)reset:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIView *bannerView;
+@property (weak, nonatomic) IBOutlet UILabel *timer;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
